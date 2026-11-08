@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use NKceiver, please cite the preprint in preferred-citation."
+type: software
+title: "NKceiver"
+authors:
+  - family-names: Meng
+    given-names: Fanyi
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/F1Meng/NKceiver"
+url: "https://github.com/F1Meng/NKceiver"
+preferred-citation:
+  type: article
+  status: preprint
+  title: "Disease-associated NK-cell state remodeling reveals transcriptional profiles predictive of clinical phenotypes"
+  authors:
+    - family-names: Meng
+      given-names: Fanyi
+    - family-names: Lin
+      given-names: Peiran
+    - family-names: Zhang
+      given-names: Shunjie
+    - family-names: Li
+      given-names: Tianhao
+    - family-names: Liu
+      given-names: Zili
+    - family-names: Ye
+      given-names: Peng
+    - family-names: Zhong
+      given-names: Chao
+    - family-names: Zhou
+      given-names: Yuan
+  journal: bioRxiv
+  year: 2026
+  doi: "10.64898/2026.10.22.760478"
+  url: "https://doi.org/10.64898/2026.10.22.760478"

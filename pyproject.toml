@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nkceiver"
+version = "1.0.0"
+description = "NK-state pseudobulk classification with a compact Perceiver"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=2,<3", "pandas>=2,<3", "scipy>=1.15,<2", "torch>=2.9,<3", "anndata>=0.12,<0.13"]
+
+[project.scripts]
+nkceiver-predict = "nkceiver.predict:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
